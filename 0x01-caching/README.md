@@ -1,10 +1,9 @@
-# ALX Backend Project: Caching Curriculum
+# ALX Backend Project: Caching Algorithms
 
 ## Introduction
 This project is part of the ALX Backend specialization curriculum focusing on caching algorithms. Throughout this project, you will delve into different caching methodologies and their implementations.
 
 ## Short Specializations
-- **Average:** 80.42%
 - **0x01. Caching**
   - **Back-end**
   - **Weight:** 1
