@@ -29,6 +29,7 @@ class LRUCache(BaseCaching):
         get key: value from cache dict
         """
         item = self.cache_data.get(key)
-        self.cache_data.pop(key)
+        if key and key in self.cache_data.keys():
+            self.cache_data.pop(key)
         self.put(key, item)
         return self.cache_data.get(key)
