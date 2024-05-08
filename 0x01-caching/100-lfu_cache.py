@@ -27,7 +27,8 @@ class LFUCache(BaseCaching):
             self.frequency.pop(k)
             print("DISCARD: {}".format(k))
         self.cache_data[key] = item
-        self.frequency[key] = 0
+        if key not in self.frequency.keys():
+            self.frequency[key] = 0
 
     def get(self, key):
         """
